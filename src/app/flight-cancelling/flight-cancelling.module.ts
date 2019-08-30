@@ -13,8 +13,7 @@ import { createCustomElement } from '@angular/elements';
   entryComponents: [FlightCancellingComponent]
 })
 export class FlightCancellingModule { 
-  
-  constructor(injector: Injector) {
+    constructor(injector: Injector) {
     console.debug('FlightCancellingModule initialized ...');
 
     const ngElementConstructor = createCustomElement(FlightCancellingComponent, {

@@ -14,7 +14,7 @@ export class LazyDashboardTileService  {
     private moduleRef: NgModuleRef<any>;
 
     load(): Promise<void> {
-        
+
         if (this.moduleRef) {
             return Promise.resolve();
         }

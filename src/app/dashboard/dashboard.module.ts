@@ -15,7 +15,8 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
     DashboardTileComponent
   ],
   exports: [
-    DashboardComponent
+    DashboardComponent,
+    NgxChartsModule
   ],
   entryComponents: [
     DashboardTileComponent

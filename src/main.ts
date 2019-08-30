@@ -13,7 +13,6 @@ if (environment.production) {
 }
 
 
-
 platformBrowserDynamic().bootstrapModule(AppModule);
 
 // renderComponent(AppComponent)
@@ -21,5 +20,5 @@ platformBrowserDynamic().bootstrapModule(AppModule);
   // "angularCompilerOptions": {
   //   "enableIvy": true
   // }
-  
+
 */

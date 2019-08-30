@@ -45,12 +45,14 @@ export class DashboardComponent implements OnInit {
     const data = this.getData();
 
     const tile = document.createElement(tileKind);
+
     tile.setAttribute('class', 'col-lg-4 col-md-3 col-sm-2');
     tile.setAttribute('a', '' + data[0]);
     tile.setAttribute('b', '' + data[1]);
     tile.setAttribute('c', '' + data[2]);
 
     const content = document.getElementById('content');
+
     content.appendChild(tile);
 
   }
